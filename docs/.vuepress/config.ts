@@ -3,7 +3,7 @@ import { defineUserConfig } from 'vuepress'
 import theme from './theme'
 
 export default defineUserConfig({
-  base: '/',
+  base: '/wang-spec/',
 
   lang: 'en-US',
   title: 'wang-sepc',

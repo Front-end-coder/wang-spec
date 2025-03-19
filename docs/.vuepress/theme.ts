@@ -4,7 +4,8 @@ import navbar from "./navbar";
 import sidebar from "./sidebar";
 
 export default hopeTheme({
-    logo: '/wang-spec/logo.png',
+    
+    logo: '/logo.png',
 
     repo: 'https://github.com/Front-end-coder/wang-spec',
 
