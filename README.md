@@ -21,3 +21,11 @@ npm install -g conventional-changelog-cli
 # 生成日志
 conventional-changelog -p angular -i CHANGELOG.md -s
 ```
+
+### markdownlint
+
+```bash
+pnpm i markdownlint -D -w
+
+npm i -g markdownlint-cli
+```

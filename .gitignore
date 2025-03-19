@@ -7,3 +7,4 @@ node_modules/
 # VuePress 默认构建生成的静态文件目录
 .vuepress/dist
 
+lerna-debug.log
