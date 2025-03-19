@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/lerna",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "npmClient": "pnpm",
   "command": {
     "publish": {
