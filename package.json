@@ -10,6 +10,7 @@
     "@commitlint/cli": "^19.8.0",
     "@vuepress/bundler-vite": "2.0.0-rc.20",
     "@vuepress/plugin-slimsearch": "2.0.0-rc.85",
+    "conventional-changelog-conventionalcommits": "^8.0.0",
     "husky": "^9.1.7",
     "lerna": "^8.2.1",
     "sass": "^1.85.1",
