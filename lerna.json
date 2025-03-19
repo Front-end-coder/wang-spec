@@ -1,7 +1,8 @@
 {
-  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
-  "version": "0.0.0",
+  "$schema": "https://json.schemastore.org/lerna",
+  "version": "0.0.1",
   "npmClient": "pnpm",
+  "packages": ["packages/*"],
   "command": {
     "publish": {
       "npmClient": "npm",
