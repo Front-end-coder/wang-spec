@@ -1,0 +1,24 @@
+{
+  "name": "wang-commitlint-config",
+  "version": "1.0.0",
+  "description": "代码提交 git规范",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "commitlint",
+    "wang"
+  ],
+  "author": "wang",
+  "license": "ISC",
+  "homepage": "https://github.com/Front-end-coder/wang-spec",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Front-end-coder/wang-spec.git"
+  },
+  "packageManager": "pnpm@10.6.3",
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^8.0.0"
+  }
+}

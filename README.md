@@ -7,3 +7,9 @@
 项目搭建： lerna + pnpm
 规范： commitlint + markdownlint + stylelint + eslint
 测试： jest
+
+### commitlint
+
+```bash
+pnpm i husky @commitlint/cli  -D -w
+```
