@@ -20,5 +20,13 @@ export default navbar([
             { text: 'CHANGELOG 规范', link: '/engineering/changelog.md' },
         ],
     },
-
+    {
+        text: 'NPM包',
+        children: [
+          { text: 'wang-eslint-config', link: '/npm/eslint.md' },
+          { text: 'wang-stylelint-config', link: '/npm/stylelint.md' },
+          { text: 'wang-commitlint-config', link: '/npm/commitlint.md' },
+          { text: 'wang-markdownlint-config', link: '/npm/markdownlint.md' },
+        ],
+      },
 ])
