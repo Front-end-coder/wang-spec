@@ -1,0 +1,32 @@
+{
+  "name": "wang-stylelint-config",
+  "version": "0.0.2",
+  "description": "wang css规范",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "wang",
+    "stylelint"
+  ],
+  "author": "wang",
+  "homepage": "https://github.com/Front-end-coder/wang-spec",
+  "peerDependencies": {
+    "stylelint": ">=8.3.0",
+    "stylelint-scss": ">=2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Front-end-coder/wang-spec.git"
+  },
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.4",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "postcss-less": "^6.0.0",
+    "postcss-scss": "^4.0.9",
+    "stylelint": "^14.16.1",
+    "stylelint-scss": "^6.11.1"
+  }
+}

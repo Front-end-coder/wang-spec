@@ -158,7 +158,7 @@ author:
     ```html
     <head>
      <meta charset="utf-8" />
-     <title>印客学院</title>
+     <title>wang</title>
     </head>
     ```
 
@@ -172,7 +172,7 @@ author:
     <!DOCTYPE html>
     <html>
      <head>
-      <title>印客学院</title>
+      <title>wang</title>
      </head>
      <body>
       <img src="images/company-logo.png" alt="Company" />
@@ -336,10 +336,10 @@ author:
 <html lang="zh-CN">
  <head>
   <meta charset="utf-8" />
-  <meta name="description" content="印客学院 - 一千个职业梦想的赞助商" />
-  <meta name="keyword" content="印客学院" />
+  <meta name="description" content="wang工程化规范文档" />
+  <meta name="keyword" content="wang" />
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, viewport-fit=cover" />
-  <title>印客学院</title>
+  <title>wang</title>
   <link rel="stylesheet" href="example.css" />
  </head>
  <body>
