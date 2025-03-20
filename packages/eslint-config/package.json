@@ -1,0 +1,28 @@
+{
+  "name": "wang-eslint-config",
+  "version": "0.0.3",
+  "description": "JavaScript TypeScript Node 规范",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wang",
+    "JavaScript",
+    "TypeScript",
+    "Node",
+    "lint"
+  ],
+  "author": "wang",
+  "license": "ISC",
+  "homepage": "https://github.com/Front-end-coder/wang-spec",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Front-end-coder/wang-spec.git"
+  },
+  "packageManager": "pnpm@10.6.4",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.26.10",
+    "eslint": "^9.22.0"
+  }
+}
