@@ -27,6 +27,11 @@ export default navbar([
           { text: 'wang-stylelint-config', link: '/npm/stylelint.md' },
           { text: 'wang-commitlint-config', link: '/npm/commitlint.md' },
           { text: 'wang-markdownlint-config', link: '/npm/markdownlint.md' },
+          { text: 'wang-eslint-plugin', link: '/npm/eslint-plugin.md' },
         ],
+      },
+      {
+        text: '脚手架',
+        items: [{ text: 'wang-lint', link: '/cli/wang-lint.md' }],
       },
 ])

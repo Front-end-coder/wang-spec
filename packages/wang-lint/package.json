@@ -8,11 +8,13 @@
     "prepublishOnly": "npm run test",
     "test": "npm run build && jest",
     "build": "rm -rf lib & npm run copyfiles && tsc",
-    "copyfiles": "copyfiles -a -u 1 \"src/config/**\" lib",
+    "copyfiles": "copyfiles -a \"src/config/**\" lib",
     "dev": "npm run copyfiles && tsc -w"
   },
   "files": [
-    "lib/"
+    "lib/",
+    "package.json",
+    "README.md"
   ],
   "engines": {
     "node": ">=20.17.0"
