@@ -1,6 +1,6 @@
 {
   "name": "wang-eslint-plugin",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "自定义eslint插件",
   "main": "src/index.js",
   "scripts": {
