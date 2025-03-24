@@ -15,8 +15,7 @@ export async function doESLint(options: DoESLintOptions) {
   if (options.files) {
     files = options.files.filter(name => ESLINT_FILE_EXT.includes(extname(name)))
   } else {
-    const pattern = join(options.include, `**/*.{${ESLINT_FILE_EXT.map(t => t.replace(/^\./, '')).join(',')}}`)
-    files = await fg(pattern, {
+    files = await fg(`**/*.{${ESLINT_FILE_EXT.map(t => t.replace(/^\./, '')).join(',')}}`, {
       cwd: options.cwd,
       ignore: ESLINT_IGNORE_PATTERN,
     })
