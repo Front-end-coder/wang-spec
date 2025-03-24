@@ -237,6 +237,9 @@ importers:
       wang-markdownlint-config:
         specifier: workspace:^
         version: link:../markdownlint-config
+      wang-stylelint-config:
+        specifier: workspace:^
+        version: link:../stylelint-config
     devDependencies:
       '@types/node':
         specifier: ^22.13.11
