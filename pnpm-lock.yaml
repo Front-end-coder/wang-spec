@@ -154,6 +154,100 @@ importers:
         specifier: ^6.11.1
         version: 6.11.1(stylelint@14.16.1)
 
+  packages/wang-lint:
+    dependencies:
+      '@typescript-eslint/eslint-plugin':
+        specifier: ^8.27.0
+        version: 8.27.0(@typescript-eslint/parser@8.27.0(eslint@8.57.1)(typescript@4.9.5))(eslint@8.57.1)(typescript@4.9.5)
+      '@typescript-eslint/parser':
+        specifier: ^8.27.0
+        version: 8.27.0(eslint@8.57.1)(typescript@4.9.5)
+      chalk:
+        specifier: ^4.1.2
+        version: 4.1.2
+      child_process:
+        specifier: ^1.0.2
+        version: 1.0.2
+      command-exists:
+        specifier: ^1.2.9
+        version: 1.2.9
+      commander:
+        specifier: '6'
+        version: 6.2.1
+      cross-spawn:
+        specifier: ^7.0.6
+        version: 7.0.6
+      ejs:
+        specifier: ^3.1.10
+        version: 3.1.10
+      eslint:
+        specifier: ^8.57.1
+        version: 8.57.1
+      execa:
+        specifier: ^5.0.0
+        version: 5.0.0
+      fast-glob:
+        specifier: ^3.3.3
+        version: 3.3.3
+      fs-extra:
+        specifier: ^11.3.0
+        version: 11.3.0
+      glob:
+        specifier: ^7.1.6
+        version: 7.1.6
+      inquirer:
+        specifier: ^7.3.3
+        version: 7.3.3
+      is-docker:
+        specifier: ^2.2.1
+        version: 2.2.1
+      lodash:
+        specifier: ^4.17.21
+        version: 4.17.21
+      markdownlint:
+        specifier: ^0.25.1
+        version: 0.25.1
+      markdownlint-rule-helpers:
+        specifier: ^0.28.0
+        version: 0.28.0
+      ora:
+        specifier: ^5.4.1
+        version: 5.4.1
+      strip-ansi:
+        specifier: ^6.0.1
+        version: 6.0.1
+      stylelint:
+        specifier: ^16.16.0
+        version: 16.16.0(typescript@4.9.5)
+      terminal-link:
+        specifier: ^2.1.1
+        version: 2.1.1
+      text-table:
+        specifier: ^0.2.0
+        version: 0.2.0
+      wang-markdownlint-config:
+        specifier: workspace:^
+        version: link:../markdownlint-config
+    devDependencies:
+      '@types/node':
+        specifier: ^22.13.11
+        version: 22.13.11
+      copyfiles:
+        specifier: ^2.4.1
+        version: 2.4.1
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@22.13.11)
+      prettier:
+        specifier: ^3.5.3
+        version: 3.5.3
+      typescript:
+        specifier: ^4.1.2
+        version: 4.9.5
+      wang-eslint-config:
+        specifier: ^0.0.4
+        version: 0.0.4
+
   packages/wang-lint-cli:
     dependencies:
       '@typescript-eslint/eslint-plugin':
@@ -1712,9 +1806,6 @@ packages:
 
   '@types/node@17.0.45':
     resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
-
-  '@types/node@22.13.10':
-    resolution: {integrity: sha512-I6LPUvlRH+O6VRUqYOcMudhaIdUVWfsjnZavnsraHvpBwaEyMN29ry+0UVJhImYL16xsscu0aske3yA+uPOWfw==}
 
   '@types/node@22.13.11':
     resolution: {integrity: sha512-iEUCUJoU0i3VnrCmgoWCXttklWcvoCIx4jzcP22fioIVSdTmjgoEvmAO/QPw6TcS9k5FrNgn4w7q5lGOd1CT5g==}
@@ -5803,6 +5894,10 @@ packages:
     resolution: {integrity: sha512-xZFXEGbG7SNC3itwBzI3RYjq/cEhBkx2hJuKGIUOcEULmkQExXiHat2z/qkISYsuR+IKumhEfKKbV5qXmhICFQ==}
     engines: {node: '>=4'}
 
+  terminal-link@2.1.1:
+    resolution: {integrity: sha512-un0FmiRUQNr5PJqy9kP7c40F5BOfpGlYTrxonDChEZB7pzZxRNp/bt+ymiy9/npwXya9KH99nJ/GXFIiUkYGFQ==}
+    engines: {node: '>=8'}
+
   terminal-link@3.0.0:
     resolution: {integrity: sha512-flFL3m4wuixmf6IfhFJd1YPiLiMuxEc8uHRM1buzIeZPm22Au2pDqBJQgdo7n1WfPU1ONFGv7YDwpFBmHGF6lg==}
     engines: {node: '>=12'}
@@ -8027,7 +8122,7 @@ snapshots:
 
   '@types/conventional-commits-parser@5.0.1':
     dependencies:
-      '@types/node': 22.13.10
+      '@types/node': 22.13.11
 
   '@types/debug@4.1.12':
     dependencies:
@@ -8038,7 +8133,7 @@ snapshots:
   '@types/fs-extra@11.0.4':
     dependencies:
       '@types/jsonfile': 6.1.4
-      '@types/node': 22.13.10
+      '@types/node': 22.13.11
 
   '@types/graceful-fs@4.1.9':
     dependencies:
@@ -8066,7 +8161,7 @@ snapshots:
 
   '@types/jsonfile@6.1.4':
     dependencies:
-      '@types/node': 22.13.10
+      '@types/node': 22.13.11
 
   '@types/katex@0.16.7': {}
 
@@ -8095,10 +8190,6 @@ snapshots:
 
   '@types/node@17.0.45': {}
 
-  '@types/node@22.13.10':
-    dependencies:
-      undici-types: 6.20.0
-
   '@types/node@22.13.11':
     dependencies:
       undici-types: 6.20.0
@@ -8109,7 +8200,7 @@ snapshots:
 
   '@types/sax@1.2.7':
     dependencies:
-      '@types/node': 22.13.10
+      '@types/node': 22.13.11
 
   '@types/semver@7.5.8': {}
 
@@ -13520,6 +13611,11 @@ snapshots:
       yallist: 4.0.0
 
   temp-dir@1.0.0: {}
+
+  terminal-link@2.1.1:
+    dependencies:
+      ansi-escapes: 4.3.2
+      supports-hyperlinks: 2.3.0
 
   terminal-link@3.0.0:
     dependencies:
