@@ -45,18 +45,18 @@ export default sidebar({
       ],
     },
     {
-      title: "NPM包",
+      text: "NPM包",
       children: [
-        { title: "wang-eslint-config", path: "/npm/eslint.md" },
-        { title: "wang-stylelint-config", path: "/npm/stylelint.md" },
-        { title: "wang-commitlint-config", path: "/npm/commitlint.md" },
-        { title: "wang-markdownlint-config", path: "/npm/markdownlint.md" },
-        { title: "wang-eslint-plugin", path: "/npm/eslint-plugin.md" },
+        { text: "wang-eslint-config", link: "/npm/eslint.md" },
+        { text: "wang-stylelint-config", link: "/npm/stylelint.md" },
+        { text: "wang-commitlint-config", link: "/npm/commitlint.md" },
+        { text: "wang-markdownlint-config", link: "/npm/markdownlint.md" },
+        { text: "wang-eslint-plugin", link: "/npm/eslint-plugin.md" },
       ],
     },
     {
-      title: "脚手架",
-      children: [{ title: "wang-lint-cli", path: "/cli/wang-lint-cli.md" }],
+      text: "脚手架",
+      children: [{ text: "wang-lint-cli", link: "/cli/wang-lint-cli.md" }],
     },
   ],
 });
