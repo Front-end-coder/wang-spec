@@ -30,7 +30,7 @@ describe("rules-validate", () => {
       configFile: path.join(__dirname, '../index.js'),
       files: filePaths,
       fix: false,
-      customSyntax: 'postcss-less',
+      customSyntax: 'postcss-scss',
     });
 
     const warnings = result.results[0].warnings;
