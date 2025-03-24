@@ -154,7 +154,7 @@ importers:
         specifier: ^6.11.1
         version: 6.11.1(stylelint@14.16.1)
 
-  packages/wang-lint:
+  packages/wang-lint-cli:
     dependencies:
       '@typescript-eslint/eslint-plugin':
         specifier: ^8.27.0

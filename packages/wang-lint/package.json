@@ -1,5 +1,5 @@
 {
-  "name": "wang-lint",
+  "name": "wang-lint-cli",
   "version": "0.0.5",
   "description": "前端编码规范工程化脚手架",
   "bin": "./lib/cli.js",

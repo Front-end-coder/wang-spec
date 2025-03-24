@@ -56,7 +56,7 @@ export default sidebar({
     },
     {
       title: "脚手架",
-      children: [{ title: "wang-lint", path: "/cli/wang-lint.md" }],
+      children: [{ title: "wang-lint-cli", path: "/cli/wang-lint-cli.md" }],
     },
   ],
 });
