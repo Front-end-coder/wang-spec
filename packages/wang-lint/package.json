@@ -50,12 +50,20 @@
     "cross-spawn": "^7.0.6",
     "ejs": "^3.1.10",
     "eslint": "^8.57.1",
+    "execa": "^5.0.0",
+    "fast-glob": "^3.3.3",
     "fs-extra": "^11.3.0",
     "glob": "^7.1.6",
     "inquirer": "^7.3.3",
+    "is-docker": "^3.0.0",
     "lodash": "^4.17.21",
     "markdownlint": "^0.25.1",
+    "markdownlint-rule-helpers": "^0.28.0",
     "ora": "^5.4.1",
-    "stylelint": "^16.16.0"
+    "strip-ansi": "^7.1.0",
+    "stylelint": "^16.16.0",
+    "terminal-link": "^3.0.0",
+    "text-table": "^0.2.0",
+    "wang-markdownlint-config": "workspace:^"
   }
 }
