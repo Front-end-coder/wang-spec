@@ -1,6 +1,6 @@
 {
   "name": "wang-lint-cli",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "前端编码规范工程化脚手架",
   "bin": "./lib/cli.js",
   "main": "./lib/index.js",
@@ -65,6 +65,7 @@
     "terminal-link": "^2.1.1",
     "text-table": "^0.2.0",
     "wang-eslint-config": "workspace:^",
-    "wang-markdownlint-config": "workspace:^"
+    "wang-markdownlint-config": "workspace:^",
+    "wang-stylelint-config": "workspace:^"
   }
 }
