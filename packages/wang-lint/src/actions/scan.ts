@@ -43,6 +43,7 @@ export default async (options: ScanOptions): Promise<ScanReport> => {
 
   // markdown
   if (config.enableMarkdownlint !== false) {
+    
     try {
       const markdownlintResults = await doMarkdownlint({ ...options, pkg, config });
       results = results.concat(markdownlintResults);
@@ -50,13 +51,13 @@ export default async (options: ScanOptions): Promise<ScanReport> => {
       runErrors.push(e);
     }
   }
-
   // 生成报告报告文件
   if (outputReport) {
     const reportPath = path.resolve(process.cwd(), `./${PKG_NAME}-report.json`);
     fs.outputFile(reportPath, JSON.stringify(results, null, 2), () => {});
   }
 
+  
   return {
     results,
     errorCount: results.reduce((count, { errorCount }) => count + errorCount, 0),
