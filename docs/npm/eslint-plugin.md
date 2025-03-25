@@ -23,7 +23,7 @@ npm install wang-eslint-plugin eslint --save-dev
 ```js
 // .eslintrc.js
 module.exports = {
-  plugin: ['wang-eslint-config'],
+  plugin: ['eslint-config-wang'],
   rules: {
     'wang-eslint-plugin/no-secret-info': 'error',
   },

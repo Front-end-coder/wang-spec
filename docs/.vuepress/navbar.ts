@@ -23,7 +23,7 @@ export default navbar([
     {
         text: 'NPM包',
         children: [
-          { text: 'wang-eslint-config', link: '/npm/eslint.md' },
+          { text: 'eslint-config-wang', link: '/npm/eslint.md' },
           { text: 'wang-stylelint-config', link: '/npm/stylelint.md' },
           { text: 'wang-commitlint-config', link: '/npm/commitlint.md' },
           { text: 'wang-markdownlint-config', link: '/npm/markdownlint.md' },
