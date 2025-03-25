@@ -4,6 +4,7 @@
     "ul-style": {
         "style": "dash"
     },
+    "heading-increment": false,
     "no-trailing-spaces": { 
         "br_spaces": 0
     },
@@ -12,6 +13,7 @@
     "no-inline-html": false, 
     "no-duplicate-header": false, 
     "no-duplicate-heading": false,
+    
     "proper-name": { 
         "names": [
             "JavaScript",
