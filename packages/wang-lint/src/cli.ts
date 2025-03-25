@@ -70,7 +70,6 @@ program
 
     const checking = ora();
     checking.start(`执行${PKG_NAME}代码检查`);
-
     const { results, errorCount, warningCount, runErrors } = await scan({
       cwd,
       fix: false,
