@@ -41,7 +41,7 @@ features:
 
 | 规约 | Lint 工具 | NPM包 |
 | -------- | -------- | -------- |
-| JavaScript 编码规范 / TypeScript 编码规范  / Node 编码规范   |  [ESLint](https://eslint.org/)   | [eslint-config-wang](https://www.npmjs.com/package/eslint-config-wang) |
+| JavaScript 编码规范 <br /> TypeScript 编码规范 <br /> Node 编码规范   |  [ESLint](https://eslint.org/)   | [eslint-config-wang](https://www.npmjs.com/package/eslint-config-wang) |
 | CSS 编码规范     |  [stylelint](https://stylelint.io/)  | [wang-stylelint-config](https://www.npmjs.com/package/wang-stylelint-config) |
 | Git 规范    |  [commitlint](https://commitlint.js.org/#/)  | [wang-commitlint-config](https://www.npmjs.com/package/wang-commitlint-config) |
 | 文档规范     |  [markdownlint](https://github.com/DavidAnson/markdownlint)  | [wang-markdownlint-config](https://www.npmjs.com/package/wang-markdownlint-config) |
