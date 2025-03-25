@@ -25,7 +25,6 @@ module.exports = {
     "no-duplicate-at-import-rules": true, // 禁止@import规则出现重复
     "no-duplicate-selectors": true, // 禁止选择器重复
     "no-empty-source": null, // 禁止空源
-    "no-extra-semicolons": true, // 禁止出现额外的分号
     "no-invalid-double-slash-comments": true, // 禁止使用//注释
     "property-no-unknown": true, // 禁止使用未知的属性
     "selector-pseudo-class-no-unknown": [
@@ -47,7 +46,6 @@ module.exports = {
      * Stylistic issues
      * @link https://stylelint.io/user-guide/rules/list#stylistic-issues
      */
-    indentation: 2, // 缩进2个空格
     'color-hex-length': 'short', // 指定十六进制颜色的短或长表示法
     'comment-whitespace-inside': 'always', // 注释内部必须有空格
     'declaration-block-single-line-max-declarations': 1, // 限制声明块中的单行声明数量为1

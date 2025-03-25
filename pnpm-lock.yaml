@@ -139,16 +139,6 @@ importers:
         specifier: ^29.7.0
         version: 29.7.0(@types/node@14.18.63)(ts-node@10.9.2(@types/node@14.18.63)(typescript@4.9.5))
 
-  packages/lint-test:
-    dependencies:
-      wang-eslint-config:
-        specifier: ^0.0.5
-        version: 0.0.5
-    devDependencies:
-      wang-lint-cli:
-        specifier: workspace:^
-        version: link:../wang-lint
-
   packages/markdownlint-config:
     dependencies:
       markdownlint:
@@ -6989,10 +6979,6 @@ packages:
 
   walker@1.0.8:
     resolution: {integrity: sha512-ts/8E8l5b7kY0vlWLewOkDXMmPdLcVV4GmOQLyxuSswIJsweeFZtAsMF7k1Nszz+TYBQrlYRmzOnr398y1JemQ==}
-
-  wang-eslint-config@0.0.5:
-    resolution: {integrity: sha512-XW7DwKYhmheNHAj+1xWd9qBXFD8zYE+EiS1sS1uVMdnRMxX7ATwK4pvaQfM4Vx2lCwSVCV+4k8M4aAl/zhZCOg==}
-    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   wcwidth@1.0.1:
     resolution: {integrity: sha512-XHPEwS0q6TaxcvG85+8EYkbiCux2XtWG2mkc47Ng2A77BQu9+DqIOJldST4HgPkuea7dvKSj5VgX3P1d4rW8Tg==}
@@ -15591,8 +15577,6 @@ snapshots:
   walker@1.0.8:
     dependencies:
       makeerror: 1.0.12
-
-  wang-eslint-config@0.0.5: {}
 
   wcwidth@1.0.1:
     dependencies:
