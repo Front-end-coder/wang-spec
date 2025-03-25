@@ -8,12 +8,12 @@ author:
   link: https://github.com/encode-studio-fe/fe-spec
 ---
 
-# wang-eslint-plugin
+# eslint-plugin-wang
 
 除了本包，你需要同时安装 [ESlint](https://eslint.org/)
 
 ```shell
-npm install wang-eslint-plugin eslint --save-dev
+npm install eslint-plugin-wang eslint --save-dev
 ```
 
 ## 使用
@@ -25,7 +25,7 @@ npm install wang-eslint-plugin eslint --save-dev
 module.exports = {
   plugin: ['eslint-config-wang'],
   rules: {
-    'wang-eslint-plugin/no-secret-info': 'error',
+    'eslint-plugin-wang/no-secret-info': 'error',
   },
 };
 ```
@@ -35,7 +35,7 @@ module.exports = {
 ```js
 // .eslintrc.js
 module.exports = {
-  extends: 'plugin:wang-eslint-plugin/recommended',
+  extends: 'plugin:eslint-plugin-wang/recommended',
 };
 ```
 

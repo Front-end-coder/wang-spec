@@ -1,7 +1,7 @@
 module.exports = {
-    plugins: ['wang-eslint-plugin'],
+    plugins: ['eslint-plugin-wang'],
     rules: {
-        'wang-eslint-plugin/no-http-url': 'warn',
-        'wang-eslint-plugin/no-secret-info': 'error',
+        'eslint-plugin-wang/no-http-url': 'warn',
+        'eslint-plugin-wang/no-secret-info': 'error',
     }
 }
