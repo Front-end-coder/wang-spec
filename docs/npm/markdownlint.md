@@ -11,10 +11,8 @@ author:
 # wang-markdownlint-config
 
 :::tip
-文档 规范
+文档 规范支持配套的 [markdownlint 可共享配置](https://www.npmjs.com/package/markdownlint#optionsconfig)。
 :::
-
-支持配套的 [markdownlint 可共享配置](https://www.npmjs.com/package/markdownlint#optionsconfig)。
 
 ## 安装
 

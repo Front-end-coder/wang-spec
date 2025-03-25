@@ -11,10 +11,8 @@ author:
 # wang-stylelint-config
 
 :::tip
-CSS 规范
+CSS 规范支持配套的 [stylelint 可共享配置](https://stylelint.io/user-guide/configure)。
 :::
-
-支持配套的 [stylelint 可共享配置](https://stylelint.io/user-guide/configure)。
 
 ## 安装
 

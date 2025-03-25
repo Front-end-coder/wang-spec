@@ -336,7 +336,7 @@ author:
 <html lang="zh-CN">
  <head>
   <meta charset="utf-8" />
-  <meta name="description" content="wang工程化规范文档" />
+  <meta name="description" content="工程化规范文档" />
   <meta name="keyword" content="wang" />
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, viewport-fit=cover" />
   <title>wang</title>
