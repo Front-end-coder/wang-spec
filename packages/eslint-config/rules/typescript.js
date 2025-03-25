@@ -791,8 +791,7 @@ module.exports = {
     {
       files: ['*.ts', '*.tsx'],
       rules: {
-        // Disable `no-undef` rule within TypeScript files because it incorrectly errors
-        // when exporting default interfaces
+        // Disable `no-undef` rule within TypeScript files because it incorrectly errors when exporting default interfaces
         // https://github.com/iamturns/eslint-config-airbnb-typescript/issues/50
         // This will be caught by TypeScript compiler if `strictNullChecks` (or `strict`) is enabled
         'no-undef': 'off',
