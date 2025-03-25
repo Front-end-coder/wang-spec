@@ -76,11 +76,7 @@ module.exports = {
      * @extend
      */
     'brace-style': 'off',
-    '@typescript-eslint/brace-style': [
-      'error',
-      '1tbs',
-      { allowSingleLine: true },
-    ],
+
 
     /**
      * 【推荐】类的属性如果是字面量，则必须是只读属性而不能用 getter
@@ -94,10 +90,6 @@ module.exports = {
      * @extend
      */
     'comma-spacing': 'off',
-    '@typescript-eslint/comma-spacing': [
-      'error',
-      { before: false, after: true },
-    ],
 
     /**
      * 【强制】类型断言必须使用 as Type 而非 <T>，对象字面量禁止类型断言（断言成 any 除外）
@@ -159,55 +151,13 @@ module.exports = {
      * @link https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/func-call-spacing.md
      */
     'func-call-spacing': 'off',
-    '@typescript-eslint/func-call-spacing': ['error', 'never'],
 
     /**
      * 【强制】缩进为两个空格
      * @link https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/indent.md
      */
     indent: 'off',
-    '@typescript-eslint/indent': [
-      'error',
-      2,
-      {
-        SwitchCase: 1,
-        VariableDeclarator: 1,
-        outerIIFEBody: 1,
-        // MemberExpression: null,
-        FunctionDeclaration: {
-          parameters: 1,
-          body: 1,
-        },
-        FunctionExpression: {
-          parameters: 1,
-          body: 1,
-        },
-        CallExpression: {
-          arguments: 1,
-        },
-        ArrayExpression: 1,
-        ObjectExpression: 1,
-        ImportDeclaration: 1,
-        flatTernaryExpressions: false,
-        // list derived from https://github.com/benjamn/ast-types/blob/HEAD/def/jsx.js
-        ignoredNodes: [
-          'JSXElement',
-          'JSXElement > *',
-          'JSXAttribute',
-          'JSXIdentifier',
-          'JSXNamespacedName',
-          'JSXMemberExpression',
-          'JSXSpreadAttribute',
-          'JSXExpressionContainer',
-          'JSXOpeningElement',
-          'JSXClosingElement',
-          'JSXText',
-          'JSXEmptyExpression',
-          'JSXSpreadChild',
-        ],
-        ignoreComments: false,
-      },
-    ],
+
 
     /**
      * 【关闭】变量必须在定义的时候赋值
@@ -223,18 +173,7 @@ module.exports = {
      * @extend
      */
     'keyword-spacing': 'off',
-    '@typescript-eslint/keyword-spacing': [
-      'error',
-      {
-        before: true,
-        after: true,
-        overrides: {
-          return: { after: true },
-          throw: { after: true },
-          case: { after: true },
-        },
-      },
-    ],
+
 
     /**
      * 【关闭】类成员之间保留一个空行
@@ -244,11 +183,6 @@ module.exports = {
     'lines-between-class-members': 'off',
     '@typescript-eslint/lines-between-class-members': 'off',
 
-    /**
-     * 【强制】interface/type 类型中保持一致的成员分隔符分号「;」，单行类型的最后一个元素不加分号
-     * @link https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/member-delimiter-style.md
-     */
-    '@typescript-eslint/member-delimiter-style': 'error',
 
     /**
      * 【推荐】类成员的遵循一定的排序规则
@@ -385,7 +319,6 @@ module.exports = {
      * @extend
      */
     'no-extra-semi': 'off',
-    '@typescript-eslint/no-extra-semi': 'error',
 
     /**
      * 【关闭】禁止定义没必要的类，比如只有静态方法的类
@@ -680,7 +613,6 @@ module.exports = {
      * 【强制】ts 文件字符串字面量优先使用单引号
      */
     quotes: 'off',
-    '@typescript-eslint/quotes': ['error', 'single', { avoidEscape: true }],
 
     /**
      * 【关闭】async 函数中必须存在 await 语句
@@ -710,21 +642,13 @@ module.exports = {
      * @extend
      */
     semi: 'off',
-    '@typescript-eslint/semi': ['error', 'always'],
 
     /**
      * 【强制】命名函数的空格规则，遵循 JS 约定
      * @extend
      */
     'space-before-function-paren': 'off',
-    '@typescript-eslint/space-before-function-paren': [
-      'error',
-      {
-        anonymous: 'always',
-        named: 'never',
-        asyncArrow: 'always',
-      },
-    ],
+
 
     /**
      * 【关闭】条件判断必须传入布尔值
@@ -748,10 +672,6 @@ module.exports = {
       },
     ],
 
-    /**
-     * 【强制】定义类型时应正确添加空格
-     */
-    '@typescript-eslint/type-annotation-spacing': 'error',
 
     /**
      * 【强制】interface 和 type 定义时必须声明成员的类型
