@@ -5,7 +5,7 @@
 除了本包，你需要同时安装 [ESlint](https://eslint.org/)
 
 ```shell
-$ npm install eslint-plugin-wang eslint --save-dev
+ npm install eslint-plugin-wang eslint --save-dev
 ```
 
 ## 使用

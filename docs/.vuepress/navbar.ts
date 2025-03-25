@@ -32,6 +32,6 @@ export default navbar([
       },
       {
         text: '脚手架',
-        items: [{ text: 'wang-lint-cli', link: '/cli/wang-lint-cli.md' }],
+        children: [{ text: 'wang-lint-cli', link: '/cli/wang-lint-cli.md' }],
       },
 ])
