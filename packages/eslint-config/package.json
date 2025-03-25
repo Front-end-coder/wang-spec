@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-wang",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "JavaScript TypeScript Node 规范",
   "main": "index.js",
   "scripts": {
